@@ -1,8 +1,6 @@
 package abstraction.eq7Transformateur4;
 
-//fichier codé par  Eliott et Pierrick
-//Eliott : tout ce qui concerne les journaux
-//Pierrick : tout le reste
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
