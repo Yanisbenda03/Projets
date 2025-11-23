@@ -10,7 +10,7 @@ import abstraction.eqXRomu.produits.Chocolat;
 import abstraction.eqXRomu.produits.ChocolatDeMarque;
 import abstraction.eqXRomu.produits.Feve;
 
-//codé par Yanis et Anaïs
+
 
 public class Transformateur4AcheteurBourse extends Transformateur4Acteur implements IAcheteurBourse {
 
