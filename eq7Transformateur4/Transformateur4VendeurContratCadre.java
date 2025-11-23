@@ -1,9 +1,6 @@
 package abstraction.eq7Transformateur4;
 
-//fichier codé par Anaïs, Eliott et Pierrick
-//Eliott : méthode vend()
-//Pierrick : méthode initialiser()
-//Anaïs : tout le reste
+
 
 
 
