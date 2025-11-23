@@ -25,7 +25,7 @@ import abstraction.eqXRomu.produits.IProduit;
 
 public class Transformateur4Acteur implements IActeur, IFabricantChocolatDeMarque, IMarqueChocolat {
 	
-	//variables codé par Pierrick
+	
 	
 	protected int cryptogramme;
 	private Journal journal;
@@ -499,7 +499,7 @@ public class Transformateur4Acteur implements IActeur, IFabricantChocolatDeMarqu
 
 	@Override
 	
-	//codé par Eliott
+	
 	public List<ChocolatDeMarque> getChocolatsProduits() {  
 		// TODO Auto-generated method stub
 		List<String> marquesDistributeurs = Filiere.LA_FILIERE.getMarquesDistributeur();
@@ -518,7 +518,7 @@ public class Transformateur4Acteur implements IActeur, IFabricantChocolatDeMarqu
 
 	@Override
 	
-	//codé par Eliott
+
 	public List<String> getMarquesChocolat() {
 		// TODO Auto-generated method stub
 		LinkedList<String> marques = new LinkedList<String>();
@@ -526,4 +526,5 @@ public class Transformateur4Acteur implements IActeur, IFabricantChocolatDeMarqu
 		return marques;
 	}
 }
+
 
