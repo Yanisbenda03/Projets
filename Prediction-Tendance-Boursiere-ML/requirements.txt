@@ -1,1 +1,7 @@
+numpy
+pandas
+scikit-learn
+xgboost
+yfinance
+matplotlib
 
