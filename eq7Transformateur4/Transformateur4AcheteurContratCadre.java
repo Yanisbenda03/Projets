@@ -19,7 +19,7 @@ import abstraction.eqXRomu.general.Journal;
 import java.awt.Color;
 import java.awt.Color;
 
-//codé par Anaïs
+
 
 public class Transformateur4AcheteurContratCadre extends Transformation2 implements IAcheteurContratCadre{
 	
