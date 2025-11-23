@@ -219,9 +219,9 @@ def run_backtest(data, proba, threshold=0.55, horizon=1, alpha=0.0, costs_bps=5.
     return stats, equity, bh
 
 
-# ============================================================
+
 #  Predict next
-# ============================================================
+
 
 def predict_next_day(data, features, model):
     last = data.iloc[[-1]]
@@ -229,9 +229,8 @@ def predict_next_day(data, features, model):
     return float(np.asarray(p).ravel()[0])
 
 
-# ============================================================
 #  Main
-# ============================================================
+
 
 def main():
     parser = argparse.ArgumentParser()
