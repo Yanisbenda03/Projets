@@ -1,1 +1,11 @@
+ Dans le cadre des chirurgies, on veut pouvoir reconstituer un organe entier à partir d’images partielles acquises afin d’aider dans le planning chirurgical. 
+Dans ce contexte, notre projet vise à développer et comparer des méthodes de recalage non rigide 3D pour modéliser la scapula à partir de données médicales. La démarche commence par une méthode classique (ICP non rigide) comme référence, avant d’explorer des approches basées sur l’apprentissage (Learning-Based Features, DIP).
+
+Objectifs : 
+-Etat de l’art des méthodes de recalage existantes  
+-Implémenter et valider deux méthodes de référence : ICP (Iterative Closest Point) non rigide et CPD (Coherent Point Drift) sur des données 3D publiques et les appliquer ensuite sur les données de scapula
+-Expérimenter d’autres algorithmes Learning-Based Features pour le recalage automatique
+-Comparer les résultats des algorithmes orientés apprentissage aux algorithmes classiques ICP non-rigid et CPD(robustesse, précision, temps de calcul,..)
+-Etude de l’anatomie de la scapula 
+-Visualisation des données à l’aide d’un logiciel (3D Slicer, Meshlab)
 
