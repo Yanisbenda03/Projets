@@ -1,8 +1,5 @@
 package abstraction.eq7Transformateur4;
 
-//Fichier codé par Eliott et Pierrick
-//Eliott : défintion de certains attributs, définition des méthodes next(), getChocolatsProduits() et getMarquesChocolat()
-//Pierrick : définition des autres attributs et variables, du constructeur, de la méthode initialiser() puis de toutes les autres méthodes à partir du fichier TransformateurXActeur
 
 
 import java.awt.Color;
@@ -529,3 +526,4 @@ public class Transformateur4Acteur implements IActeur, IFabricantChocolatDeMarqu
 		return marques;
 	}
 }
+
