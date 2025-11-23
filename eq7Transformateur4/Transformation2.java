@@ -23,7 +23,7 @@ public class Transformation2 extends Transformateur4AcheteurBourse {
 			}
 	
 	
-//Pierrick
+
 	public void next() {
 		
 		super.next();
